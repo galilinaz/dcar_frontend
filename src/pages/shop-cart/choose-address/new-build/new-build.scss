@@ -1,0 +1,76 @@
+.new_build{
+    padding: 15px 46px;
+    background: #fff;
+    font-size: 14px;
+    color: #424242;
+    overflow: hidden;
+}
+
+.address_bottom {
+    padding: 30px 40px;
+  }
+  .required {
+    color: #f05116;
+  }
+  .input_title {
+    color: #8c8c8c;
+    display: inline-block;
+    float: left;
+    width: 15%;
+  }
+  .address_input {
+    @include input_box;
+  }
+  .input_error {
+    margin-left: 10px;
+    float: left;
+    width: 30%;
+  }
+  .each_line {
+    margin: 10px 0;
+    overflow: hidden;
+    line-height: 34px;
+  }
+  .area_input {
+    width: 100% !important;
+    font-size: $font_sm;
+  }
+  .area_box {
+    display: inline-block;
+    height: 34px;
+  }
+  .address_detail {
+    @include textarea_box;
+    width: 50%;
+  }
+  .middle_input {
+    float: left;
+    width: 30%;
+  }
+  .middle_input > input {
+    width: 30%;
+    float: left;
+  }
+  .middle_input > span {
+    width: 5%;
+    float: left;
+    text-align: center;
+  }
+  .middle_textarea {
+    width: 50%;
+    float: left;
+  }
+  .set_default_address {
+    float: right;
+    width: 85%;
+    margin-top: 10px;
+  }
+  .save_address {
+    float: right;
+    width: 85%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .save_btn {
+    @include yellow_btn;
+  }

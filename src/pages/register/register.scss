@@ -1,0 +1,132 @@
+.login_warp{
+    min-width: 1186px;
+    min-height: 100vh;
+    background: $bg_color;
+    position: relative;
+}
+.login{
+    width: 1166px;
+    height: 714px;
+    background: url('~@/assets/img/login/bgcolor.png') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -583px;
+    margin-top: -357px;
+}
+.login_logo_box{
+    width: 675px;  // 27
+    height: 714px;
+    float: left;
+    position: relative;
+}
+.logo{
+    display: block;
+    width: 98px;
+    height: 155px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -150px;
+}
+.login_main{
+    width: 464px;
+    height: 714px;
+    float: left;
+}
+.main{
+    width: 340px;
+    height: 714px;
+    margin: 0 auto;
+}
+.hello{
+    width: 100%;
+    padding: 99px 0 58px 0;
+}
+.hello span{
+    display: block;
+    width: 9px;
+    height: 24px;
+    background: #E4A978;
+    float: left;
+}
+.hello img{
+    display: block;
+    width: 94px;
+    height: 25px;
+    float: left;
+    margin-left: 20px;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    @include login_input_style;
+    margin-bottom:15px;
+}
+form input:last-child{
+    margin-bottom: 0;
+}
+::-webkit-input-placeholder {
+    color: $input_font_front; 
+}
+:-moz-placeholder { 
+    color: $input_font_front; 
+}
+::-moz-placeholder { 
+    color: $input_font_front; 
+}
+:-ms-input-placeholder { 
+    color: $input_font_front; 
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important; 
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.v_code{
+    position: relative;
+    margin-bottom: 0;
+}
+.v_code button{
+    width: 118px;
+    height: 50px;
+    background: #6474CE;
+    color: #ffffff;
+    font-size: $font_md;
+    border: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    letter-spacing: 1px;
+    text-indent: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    outline: none;
+}
+.land{
+    width: 100%;
+    height: 50px;
+}
+.land button{
+    @include login_btn_style;
+    border-radius: 25px;
+    width: 170px;
+    height: 50px;
+}
+.quick_reg{
+    margin-top: 40px;
+    float: right;
+    @include login_p_style;
+}
+.quick_reg a{
+    color: #868CD1;
+    margin-left: 6px;
+}
+
+.mustNot{
+    background: #adb4c5 !important;
+}

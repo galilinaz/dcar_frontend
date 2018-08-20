@@ -1,0 +1,12 @@
+{
+    "language": "english",
+    "data": {
+        "email": "Please enter the mailbox number",
+        "pass": "Please input a password",
+        "remember": "Remember",
+        "forget": "Forget the password",
+        "login": "Sign In",
+        "problem": "Don't have a account yet?",
+        "register": "register"
+    }
+}

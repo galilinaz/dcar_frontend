@@ -1,0 +1,216 @@
+@charset "utf-8";
+$bg_color: #F3F4F8; // 背景颜色
+$font_gray: #788091; // 灰色字体
+$font_blue: #455ecd; // 蓝色字体
+$input_font_front: #b1bbd0; // input框输入前字体颜色
+$input_font_after: #424a5c; // input框输入后字体颜色
+$input_margin_bottom: 30px; // input框下边距
+$input_bg: #F1F4FB; // input背景颜色
+$btn_color: #ffffff;
+$btn_webkit_background: -webkit-linear-gradient(left, #747BCC, #5D6DCC, #475FCB);
+$btn_margin_top: 18px;
+$btn_letter_spacing: 20px;
+$input_padding_left: 10%; // input 左边距
+$font_mm: 12px;
+$font_xs: 13px; //13px
+$font_sm: 14px; //14px
+$font_md: 16px; //16px
+$font_lg: 20px; //20px
+// personal-center-order-list
+$pc_ol_font_color: #626262; // 默认字体颜色
+$pc_ol_font_active: #ed7814;
+$pc_ol_border_color: #E0E6EC;
+$pc_ol_pd_left: 20px;
+// 登陆注册页input
+@mixin login_input_style {
+    background: $input_bg;
+    color: $input_font_after;
+    font-size: $font_md;
+    border: 0;
+    outline: none;
+    padding-left: $input_padding_left;
+    margin-bottom: $input_margin_bottom;
+}
+
+// 登陆注册页p
+@mixin login_p_style {
+    font-size: $font_sm;
+    color: $font_gray;
+    cursor: pointer;
+}
+
+// 登陆注册页button
+@mixin login_btn_style {
+    background: $btn_webkit_background;
+    color: $btn_color;
+    font-size: $font_lg;
+    margin-top: $btn_margin_top;
+    border: 0;
+    outline: none;
+    letter-spacing: $btn_letter_spacing;
+    text-indent: $btn_letter_spacing;
+}
+
+// 个人中心 input框
+@mixin input_box {
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #E8E9E9;
+    border-radius: 3px;
+    font-size: $font_sm;
+    padding: 0 10px;
+}
+
+//按钮  黄底黑色 
+@mixin yellow_btn {
+    color: #373737;
+    background: #F7BC56;
+    border-radius: 3px;
+    border: none;
+    height: 34px;
+    line-height: 36px;
+    padding: 0 15px;
+    letter-spacing: 5px;
+    text-indent: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: $font_sm;
+}
+
+//按钮 白底黑色 常用于返回/取消
+@mixin grey_btn {
+    color: #373737;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #AFAFAF;
+    height: 34px;
+    line-height: 36px;
+    padding: 0 15px;
+    letter-spacing: 5px;
+    text-indent: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: $font_sm;
+}
+
+//按钮  紫色渐变
+@mixin purple_btn {
+    color: #fff;
+    background: -webkit-linear-gradient(left, #747BCC , #485FC9); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,  #747BCC , #485FC9); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,  #747BCC , #485FC9); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,  #747BCC , #485FC9); /* 标准的语法 */
+    border-radius: 3px;
+    border: none;
+    height: 38px;
+    line-height: 36px;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    text-indent: 1px;
+    outline: none;
+    cursor: pointer;
+    font-size: $font_sm;
+}
+
+// title 个人中心小标题
+@mixin little_title {
+    color: #161616;
+    font-size: $font_sm;
+}
+
+//textare 文本框
+@mixin textarea_box {
+    resize: none;
+    border: 1px solid #E8E9E9;
+    border-radius: 3px;
+    font-size: $font_sm;
+    padding: 5px 10px;
+    line-height: 25px;
+}
+
+// 我的订单搜索框
+@mixin search_box {
+    border: 1px solid $pc_ol_border_color;
+    font-size: 12px;
+    color: #b6b6b6;
+    padding-left: $pc_ol_pd_left;
+    outline: none;
+}
+
+// 模态框样式
+@mixin modal_footer {
+    text-align: center;
+    .modal_sure {
+        color: #fff;
+        width: 140px;
+        border-radius: 3px;
+        font-size: $font_sm;
+        letter-spacing: 2px;
+        margin-right: 10px;
+        background: -webkit-linear-gradient(left, #F4C470, #F4A16D);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #F4C470, #F4A16D);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #F4C470, #F4A16D);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #F4C470, #F4A16D);
+        /* 标准的语法 */
+    }
+    .modal_cancel {
+        color: #fff;
+        width: 140px;
+        border-radius: 3px;
+        font-size: $font_sm;
+        letter-spacing: 2px;
+        margin-left: 10px;
+        background: -webkit-linear-gradient(left, #A8ABB0, #A8ABB0);
+        /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(right, #A8ABB0, #A8ABB0);
+        /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(right, #A8ABB0, #A8ABB0);
+        /* Firefox 3.6 - 15 */
+        background: linear-gradient(to right, #A8ABB0, #A8ABB0);
+        /* 标准的语法 */
+    }
+}
+
+//首页海报按钮
+$bright:#FFFFFF;
+$light:#999999;
+$gray:#666666;
+$dark:#333333;
+$brunet:#000000;
+$product_background:#19191c;
+@mixin btn_home_banner {
+    display: inline-block;
+    width: 166px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+@mixin btn_product_buy {
+    display: inline-block;
+    padding: 0 30px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background: linear-gradient(to right, #747bcc, #465fca);
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@mixin w_h($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin height_line($num) {
+    height: $num;
+    line-height: $num;
+}

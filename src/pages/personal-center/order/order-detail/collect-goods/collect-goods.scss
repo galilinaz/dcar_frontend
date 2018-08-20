@@ -1,0 +1,28 @@
+.collect_goods{
+    width: 100%;
+    height: 150px;
+}
+.info{
+    width: 592px;
+    height: 150px;
+}
+.info:first-child{
+    float: left;
+}
+.info:last-child{
+    float: right;
+}
+.info p{
+    font-size: $font_sm;
+    margin: 20px 0 10px 0;
+    color: #424242;
+}
+.info ul{
+    padding: 16px 28px;
+    background: #F0F3F8;
+    min-height: 96px;
+}
+.info ul li{
+    font-size: $font_sm;
+    color: #424242;
+}

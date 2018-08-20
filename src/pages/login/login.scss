@@ -1,0 +1,134 @@
+.login_warp{
+    min-width: 1186px;
+    min-height: 100vh;
+    background: $bg_color;
+    position: relative;
+}
+.login{
+    width: 1166px;
+    height: 714px;
+    background: url('~@/assets/img/login/bgcolor.png') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -583px;
+    margin-top: -357px;
+}
+.login_logo_box{
+    width: 675px;  // 27
+    height: 714px;
+    float: left;
+    position: relative;
+}
+.logo{
+    display: block;
+    width: 98px;
+    height: 155px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -150px;
+}
+.login_main{
+    width: 464px;
+    height: 714px;
+    float: left;
+}
+.main{
+    width: 340px;
+    height: 714px;
+    margin: 0 auto;
+}
+.hello{
+    width: 100%;
+    height: 260px;
+}
+.hello span{
+    display: block;
+    width: 9px;
+    height: 24px;
+    background: #E4A978;
+    margin-top: 45%;
+    float: left;
+}
+.hello img{
+    display: block;
+    width: 94px;
+    height: 25px;
+    float: left;
+    margin-top: 45%;
+    margin-left: 20px;
+}
+form input{
+    width: 90%;
+    height: 50px;
+    border-radius: 25px;
+    @include login_input_style;
+}
+form input:last-child{
+    margin-bottom: 0;
+}
+::-webkit-input-placeholder {
+    color: $input_font_front; 
+}
+:-moz-placeholder { 
+    color: $input_font_front; 
+}
+::-moz-placeholder { 
+    color: $input_font_front; 
+}
+:-ms-input-placeholder { 
+    color: $input_font_front; 
+}
+.remember_pass{
+    width: 90%;
+    overflow: hidden;
+    padding: 12px 5%;
+}
+.remember_pass li:first-child{
+    float: left;
+}
+.remember_pass li:last-child{
+    float: right;
+}
+.remember_pass li img{
+    float: left;
+    cursor: pointer;
+}
+.remember_pass li p{
+    float: left;
+    margin-left: 10px;
+    @include login_p_style;
+}
+.land{
+    width: 100%;
+    height: 50px;
+}
+.chinsesBtn{
+    @include login_btn_style;
+    border-radius: 25px;
+    width: 170px;
+    height: 50px;
+}
+.englishBtn{
+    background: $btn_webkit_background;
+    color: $btn_color;
+    font-size: $font_lg;
+    margin-top: $btn_margin_top;
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    width: 170px;
+    height: 50px;
+}
+.quick_reg{
+    margin-top: 80px;
+    float: right;
+    @include login_p_style;
+}
+.quick_reg a{
+    color: #868CD1;
+    margin-left: 6px;
+}

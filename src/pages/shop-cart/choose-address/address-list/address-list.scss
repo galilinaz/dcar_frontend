@@ -1,0 +1,55 @@
+.address_list{
+    padding: 15px 46px;
+    background: #fff;
+    font-size: 14px;
+    color: #424242;
+    overflow: hidden;
+}
+.title{
+    width: 6%;
+    float: left;
+    margin: 15px 0;
+}
+.content{
+    width: 94%;
+    float: left;
+}
+
+.each_address {
+    overflow: hidden;
+    margin: 10px 20px;
+    color: #515256;
+    padding: 5px 20px;
+}
+.each_address > li {
+    float: left;
+}
+.each_address > li:nth-child(1) {
+    width: 70%;
+}
+.each_address > li:nth-child(2) {
+    width: 15%;
+    text-align: right;
+}
+.each_address > li:nth-child(3) {
+    width: 15%;
+    text-align: right;
+    color: #686ad0;
+}
+.each_address > li:nth-child(3) > span {
+    cursor: pointer;
+}
+.default_address {
+    color: #999ca1;
+    background: #eaedf2;
+    padding: 5px 10px;
+    font-size: $font_xs;
+}
+.activeAddress {
+    background: #f2f5fa;
+    border: 1px solid #fdab97;
+}
+// 模态框样式
+.modal_footer {
+    @include modal_footer;
+}

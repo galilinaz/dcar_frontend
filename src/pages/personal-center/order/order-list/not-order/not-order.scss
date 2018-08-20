@@ -1,0 +1,17 @@
+.not_order{
+    width: 100%;
+    height: 288px;
+    overflow: hidden;
+    background: #fff;
+}
+.not_order img{
+    display: block;
+    width: 130px;
+    height: 121px;
+    margin: 50px auto 20px auto;
+}
+.not_order p{
+    font-size: $font_mm;
+    color: #b6b6b6;
+    text-align: center;
+}

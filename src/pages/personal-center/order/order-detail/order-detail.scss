@@ -1,0 +1,219 @@
+.order_detail{
+    min-width: 1300px;
+    margin: 0 auto;
+    background: $bg_color;
+    min-height: 100vh;
+}
+.order_container{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+.order_container .header{
+    width: 100%;
+}
+.header .title{
+    font-size: $font_md;
+    color: #212121;
+    margin: 30px 0;
+}
+.header .title a{
+    margin: 0 4px;
+}
+.header .title a:last-child{
+    font-size: $font_sm;
+    color: #ed7b14;
+}
+.order_state{
+    width: 100%;
+    height: 140px;
+    background: #fff;
+}
+.state_left{
+    width: 408px;
+    height: 140px;
+    float: left;
+    border-right: 2px solid #F1F4F9;
+    margin: 0 auto;
+}
+.state{
+    padding: 26px 0 10px 0;
+    margin: 0 20%;
+}
+.state_left img{
+    float: left;
+}
+.state_left p{
+    font-size: $font_sm;
+    color: #424242;
+    margin-left: 16px;
+}
+.state_left button{
+    display: block;
+    border: 0;
+    outline: none;
+    width: 90px;
+    height: 38px;
+    border-radius: 4px;
+    background: #F7BC56;
+    line-height: 38px;
+    color: #373737;
+    clear: both;
+    margin: 20px auto;
+}
+.state_right{
+    width: 870px;
+    float: left;
+    margin: 0 auto;
+}
+.state_right img{
+    display: block;
+    margin: 38px auto;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 10px;
+    padding: 0 32px 26px 32px;
+    border-bottom: 2px solid #F1F4F9;
+}
+.content .nav_content{
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #F1F4F9;
+}
+.content .nav_content ul{
+    float: left;
+}
+.content .nav_content ul li{
+    float: left;
+    font-size: $font_sm;
+    line-height: 42px;
+    color: #424242;
+    margin-right: 34px;
+    cursor: pointer;
+}
+.active{
+    border-bottom: 2px solid #F4B26C;
+    padding-bottom: 9px;
+}
+.content .order_info{
+    float: right;
+}
+.content .order_info p{
+    font-size: $font_mm;
+    color: #666;
+    float: left;
+    line-height: 42px;
+}
+.content .order_info p:first-child{
+    margin-right: 76px;
+}
+.shop_info{
+    width: 100%;
+    height: 392px;
+    background: #fff;
+    padding: 0 32px;
+    overflow: hidden;
+}
+.shop_info .caption{
+    width: 100%;
+    height: 40px;
+    background: #F2F3F7;
+    margin-top: 20px;
+}
+.shop_info .caption li{
+    font-size: $font_mm;
+    color: #666;
+    float: left;
+    padding: 0 50px;
+    line-height: 40px;
+}
+.shop_info .caption li p{
+    width: 80px;
+    text-align: center;
+}
+.shop_info .caption li:first-child{
+    padding-left: 38px;
+    padding-right: 550px;
+}
+.shop_info .detail{
+    width: 100%;
+    height: 134px;
+    background: #F7F8FC;
+}
+.shop_info .detail li{
+    font-size: $font_mm;
+    color: #666;
+    float: left;
+}
+.shop_info .detail .shop_photo{
+    width: 88px;
+    height: 88px;
+    background: #E5E9EC;
+    margin: 23px 38px;
+}
+.shop_info .detail .shop_title{
+    width: 312px;
+    line-height: 24px;
+    margin-top: 43px;
+    margin-right: 192px;
+}
+.shop_info .detail .single{
+    width: 80px;
+    text-align: center;
+    line-height: 134px;
+    margin: 0 50px;
+}
+.shop_info .detail .mode{
+    color: #F9802D;
+}
+.cost{
+    width: 100%;
+    height: 106px;
+    border-bottom: 1px dashed #F1F4F9;
+}
+.cost .remark{
+    float: left;
+    font-size: $font_sm;
+    line-height: 34px;
+    color: #424242;
+    border-radius: 17px;
+    background: #F7F8FC;
+    padding: 0 80px 0 28px;
+    margin: 20px 0;
+}
+.cost ul{
+    float: right;
+    margin-top: 8px;
+}
+.cost ul li{
+    font-size: $font_sm;
+    line-height: 30px;
+    color: #424242;
+}
+.cost ul li span{
+    font-size: 20px;
+    color: #ed6b20;
+}
+.handle{
+    width: 100%;
+    height: 96px;
+}
+.handle button{
+    display: block;
+    border: 0;
+    outline: none;
+    width: 90px;
+    height: 38px;
+    border-radius: 4px;
+    background: #F7BC56;
+    line-height: 38px;
+    color: #373737;
+    clear: both;
+    float: right;
+    margin-top: 29px;
+    margin-right: 44px;
+}

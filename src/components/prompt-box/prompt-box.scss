@@ -1,0 +1,150 @@
+.mask {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.checking_main {
+    color: #445574;
+    width: 90%;
+    height: 345px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -45%;
+    margin-top: -172px;
+    z-index: 1100;
+    text-align: center;
+}
+.checking_main > p {
+    text-align: center;
+    padding-top: 28px;
+    padding-left: 15px;
+}
+  
+.check_one {
+    width: 365px;
+    height: 348px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -182px;
+    margin-top: -174px;
+    z-index: 1100;
+    text-align: center;
+    background: url("~@/assets/img/order-payment/check-success-one.png") no-repeat;
+}
+.check-alert {
+    text-align: center;
+    color: #4d4c4c;
+    padding-top: 185px;
+}
+.go_login {
+    text-align: center;
+    padding-top: 52px;
+}
+.go_login > button {
+    width: 120px;
+    text-align: center;
+    height: 40px;
+    line-height: 38px;
+    color: #fff;
+    font-weight: bold;
+    background: #f7bc56;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    text-indent: 5px;
+    font-size: 18px;
+}
+.go_install > button {
+    background: #4860CC !important;
+    letter-spacing: 2px;
+    text-indent: 2px;
+}
+.check_Two {
+    width: 365px;
+    height: 348px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -182px;
+    margin-top: -174px;
+    z-index: 1100;
+    text-align: center;
+    background: url("~@/assets/img/order-payment/check-success-two.png") no-repeat;
+}
+.bind_success{
+    color: #5D5D5D;
+    width: 24%;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12%;
+    margin-top: -90px;
+    z-index: 1100;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding:20px;
+}
+.bind_title{
+    text-align: left;
+    position: relative;
+    border-bottom:1px solid #E8EAEA;
+    padding-bottom:10px;
+}
+.bind_title>img{
+    position: absolute;
+    top:3px;
+    right:0px;
+    cursor: pointer;
+}
+.bind_body{
+    text-align: left;
+    font-size: 15px;
+    padding-top:30px;
+    padding-left:60px;
+}
+.bind_body>span{
+    color:red;
+    font-weight: bold;
+}
+.add_code{
+    color: #5D5D5D;
+    width: 442px;
+    height: 316px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -221px;
+    margin-top: -158px;
+    z-index: 1100;
+    text-align: center;
+    background: url("~@/assets/img/order-payment/add-code.png") no-repeat;
+}
+.add_code{
+    color:#C9B498;
+    font-weight: bold;
+    font-size:15px;
+    padding-top:25px;
+}
+.add_code>p:nth-child(1){
+    padding-bottom:5px;
+}
+.code_btn{
+    text-align: center;
+    padding-top:170px;
+}
+.code_btn>button{
+    @include yellow_btn;
+    color:#fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-indent: 2px;
+}

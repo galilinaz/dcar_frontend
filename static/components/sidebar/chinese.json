@@ -1,0 +1,11 @@
+
+{
+    "language": "chinese",
+    "data": {
+        "sidebarTitle": "个人中心",
+        "navOne": "信息设置",
+        "navTwo": "我的兑换码",
+        "navThree": "我的订单" ,
+        "changeHeader": "修改头像"
+    }
+}

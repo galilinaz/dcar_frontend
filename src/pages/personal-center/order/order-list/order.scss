@@ -1,0 +1,100 @@
+.order_nav{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 0;
+}
+.order_nav li{
+    float: left;
+    padding: 20px 30px;
+    line-height: 30px;
+    color: $pc_ol_font_color;
+    font-size: $font_sm;
+    cursor: pointer;
+}
+.order_nav li span{
+    color: $pc_ol_font_active;
+    margin-left: 4px;
+}
+.active{
+    color: $pc_ol_font_active !important;
+}
+.search_box{
+    width: 100%;
+    height: 70px;
+    background: #F4F4F4;
+    zoom: 1;
+    z-index: 99;
+}
+.search_box:after{
+    clear: both;
+    content: " ";
+    display: block;
+}
+.search_left{
+    width: 294px;
+    height: 32px;
+    margin: 18px 10px; 
+    position: relative;
+    float: left;
+}
+.search{
+    @include search_box;
+    width: 294px;
+    height: 32px;
+    border-radius: 16px;
+}
+.search_box i{
+    position: absolute;
+    top: 2px;
+    right: 14px;
+}
+.select_right{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    margin: 18px 10px; 
+    position: relative;
+}
+.select_right p{
+    font-size: 12px;
+    color: $pc_ol_font_color;
+    float: left;
+}
+.dropdown{
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+    background: #fff;
+    float: left;
+    @include search_box;
+    position: relative;
+    cursor: pointer;
+}
+.dropdown p i{
+    position: absolute;
+    right: 10px;
+    top: -8px;
+}
+.select_right ul{
+    width: 100px;
+    height: auto;
+    clear: both;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid $pc_ol_border_color;
+    position: absolute;
+    right: 0;
+    top: 32px;
+}
+.select_right ul li{
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: $pc_ol_font_color;
+    text-align: center;
+    cursor: pointer;
+}
+.select_right ul li:hover{
+    background: #EDF5F8;
+}

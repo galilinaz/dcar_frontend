@@ -1,0 +1,12 @@
+{
+    "language": "chinese",
+    "data": {
+        "email": "请输入邮箱号",
+        "pass": "请输入密码",
+        "remember": "记住我",
+        "forget": "忘记密码",
+        "login": "登陆",
+        "problem": "还未注册账号？",
+        "register": "注册"
+    }
+}
